@@ -59,9 +59,3 @@ def predict(model_path, sentence):
         emotion.append("슬픔")
 
     return emotion[0]
-
-sentence = "오늘 귀여운 강아지를 만났어. 너무 행복한 하루였다."
-
-PATH = '/content/drive/MyDrive/day-canvas/deploy/model.pt'
-
-print(predict(PATH, sentence))
