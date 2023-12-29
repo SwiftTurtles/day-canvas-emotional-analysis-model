@@ -1,6 +1,7 @@
 import kobert_emotion_classifier as kec
 
-sentence = "너 도대체 왜그래?"
+#테스트 문자열 작성
+sentence = ""
 
 PATH = './model.pt'
 
